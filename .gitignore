@@ -12,7 +12,7 @@
 *.cb2
 .*.lb
 
-## Typst compiled PDF output
+## Typst compiled PDF output:
 *.pdf
 
 ## Intermediate documents:
