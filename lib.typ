@@ -638,7 +638,7 @@
       })
       set par(first-line-indent: 0pt)
       v(-0.1em)
-      text(fill: mausac.cau_pa)[*PHẦN I. Thí sinh trả lời từ câu 1 đến câu #tong_so_cau.* #emph[*Mỗi câu thí sinh chỉ được chọn một phương án.*]#v(0.2em)]
+      text(fill: mausac.cau_pa)[*► Thí sinh trả lời từ câu 1 đến câu #tong_so_cau.* #emph[*Mỗi câu thí sinh chỉ được chọn một phương án.*]#v(0.2em)]
       
       let c_idx = 0
       for item in s_NLC {
@@ -705,7 +705,7 @@
 
     if s_tf.len() > 0 {
       set par(first-line-indent: 0pt)
-      v(0.5em); text(mausac.cau_pa)[*PHẦN II. Thí sinh trả lời từ câu 1 đến câu #s_tf.len().* #emph[ *Trong mỗi ý a), b), c), d) của mỗi câu, thí sinh chọn đúng hoặc sai.*]]
+      v(0.5em); text(mausac.cau_pa)[*► Thí sinh trả lời từ câu 1 đến câu #s_tf.len().* #emph[ *Trong mỗi ý a), b), c), d) của mỗi câu, thí sinh chọn đúng hoặc sai.*]]
       for (idx, q) in s_tf.enumerate() {
         let sub_indices = if tf_mode == "none" { range(4) }
         else if tf_mode == "y_only" {
@@ -738,7 +738,7 @@
         if "is_chum" in q and q.is_chum == true and "cau_hoi_con" in q { acc + q.cau_hoi_con.len() } else { acc + 1 }
       })
       set par(first-line-indent: 0pt)
-      v(0.5em); text(fill: mausac.cau_pa)[*PHẦN III. Thí sinh trả lời từ câu 1 đến câu #tong_so_cau.*]
+      v(0.5em); text(fill: mausac.cau_pa)[*► Thí sinh trả lời từ câu 1 đến câu #tong_so_cau.*]
       let c_idx = 0
       for item in s_TLN {
         let is_item_chum = "is_chum" in item and item.is_chum == true and "cau_hoi_con" in item
@@ -786,7 +786,7 @@
 
     if s_TL.len() > 0 {
       set par(first-line-indent: 0pt)
-      v(0.3em); text(mausac.cau_pa)[*PHẦN IV. TỰ LUẬN (#s_TL.len() câu)*]
+      v(0.3em); text(mausac.cau_pa)[*► TỰ LUẬN (#s_TL.len() câu)*]
       v(-0.3em)
       for (idx, q) in s_TL.enumerate() {
         part4_ans.push((nd: q.nd, lg: q.lg))
