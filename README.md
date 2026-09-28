@@ -12,6 +12,13 @@ Bộ công cụ biên soạn bài tập, tài liệu ôn tập và trộn đề 
 - **Biên soạn bài tập nối tiếp (`exercise` / `baitap_inline`):** Hỗ trợ biên soạn tài liệu giảng dạy, bài tập ôn tập chuyên đề có kèm lời giải chi tiết.
 
 ---
+## 🖼️ Mẫu kết quả (Gallery)
+
+<p align="center">
+  <img src="gallery/Picture-de.png" width="48%" alt="Đề thi mẫu" /> <br>
+  <img src="gallery/Picture-bangda.png" width="48%" alt="Bảng đáp án" /> <br>
+  <img src="gallery/Picture-maQR.png" width="48%" alt="Mã QRcode dùng cho máy chấm" />
+</p>
 
 ## 📦 Hướng dẫn sử dụng
 
